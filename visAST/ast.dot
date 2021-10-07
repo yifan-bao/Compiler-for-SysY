@@ -1,0 +1,64 @@
+hellodigraph G {
+node[shape=rect]
+_0x7fe7f7406290[label=CompUnit]
+_0x7fe7f7406290 -> _0x7fe7f7406240
+_0x7fe7f7406240[label=FuncDef]
+_0x7fe7f7406240 -> _0x7fe7f7405980
+_0x7fe7f7406240 -> _0x7fe7f74059d0
+_0x7fe7f7406240 -> _0x7fe7f7405a20
+_0x7fe7f7406240 -> _0x7fe7f7405a70
+_0x7fe7f7406240 -> _0x7fe7f74061f0
+_0x7fe7f7405980[label=FuncType]
+_0x7fe7f7405980 -> _0x7fe7f7405930
+_0x7fe7f7405930[label=INT]
+_0x7fe7f74059d0[label=ID]
+_0x7fe7f7405a20[label=LP]
+_0x7fe7f7405a70[label=RP]
+_0x7fe7f74061f0[label=Block]
+_0x7fe7f74061f0 -> _0x7fe7f7405ac0
+_0x7fe7f74061f0 -> _0x7fe7f7406150
+_0x7fe7f74061f0 -> _0x7fe7f74061a0
+_0x7fe7f7405ac0[label=LC]
+_0x7fe7f7406150[label=BlockItem_rep]
+_0x7fe7f7406150 -> _0x7fe7f7405b10
+_0x7fe7f7406150 -> _0x7fe7f7406100
+_0x7fe7f7405b10[label=BlockItem_rep]
+_0x7fe7f7406100[label=BlockItem]
+_0x7fe7f7406100 -> _0x7fe7f74060b0
+_0x7fe7f74060b0[label=Decl]
+_0x7fe7f74060b0 -> _0x7fe7f7406060
+_0x7fe7f7406060[label=VarDecl]
+_0x7fe7f7406060 -> _0x7fe7f7405bb0
+_0x7fe7f7406060 -> _0x7fe7f7405fc0
+_0x7fe7f7406060 -> _0x7fe7f7406010
+_0x7fe7f7406060 -> _0x7fe7f7405e80
+_0x7fe7f7405bb0[label=FuncType]
+_0x7fe7f7405bb0 -> _0x7fe7f7405b60
+_0x7fe7f7405b60[label=INT]
+_0x7fe7f7405fc0[label=VarDef]
+_0x7fe7f7405fc0 -> _0x7fe7f7405c00
+_0x7fe7f7405fc0 -> _0x7fe7f7405c50
+_0x7fe7f7405fc0 -> _0x7fe7f7405ca0
+_0x7fe7f7405fc0 -> _0x7fe7f7405f70
+_0x7fe7f7405c00[label=ID]
+_0x7fe7f7405c50[label=ConstExp_rep]
+_0x7fe7f7405ca0[label=ASSIGNOP]
+_0x7fe7f7405f70[label=InitVal]
+_0x7fe7f7405f70 -> _0x7fe7f7405f20
+_0x7fe7f7405f20[label=Exp]
+_0x7fe7f7405f20 -> _0x7fe7f7405ed0
+_0x7fe7f7405ed0[label=AddExp]
+_0x7fe7f7405ed0 -> _0x7fe7f7405e30
+_0x7fe7f7405e30[label=MulExp]
+_0x7fe7f7405e30 -> _0x7fe7f7405de0
+_0x7fe7f7405de0[label=UnaryExp]
+_0x7fe7f7405de0 -> _0x7fe7f7405d90
+_0x7fe7f7405d90[label=PrimaryExp]
+_0x7fe7f7405d90 -> _0x7fe7f7405d40
+_0x7fe7f7405d40[label=Number]
+_0x7fe7f7405d40 -> _0x7fe7f7405cf0
+_0x7fe7f7405cf0[label=INTCONST]
+_0x7fe7f7406010[label=ComVarDef_rep]
+_0x7fe7f7405e80[label=SEMI]
+_0x7fe7f74061a0[label=RC]
+}

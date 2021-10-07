@@ -1,0 +1,34 @@
+// Keywords
+int void
+if else
+else if
+while
+continue
+break
+return
+const
+
+// Identifier
+IAmIdentifier
+I2
+Id_is
+It000
+
+// Constant
+996 
+007
+0x3E4
+0X3E4
+01744
+
+// Operator
++ - * / %
+< > <= >= == !=
+&& || !
+=
+
+// Delimeters
+( )
+[ ]
+{ }
+, ;
